@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Free Web template">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Mohamd Salimi">
+    <title>Simple Article Editor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <main class="main-page">
+        <div class="container">
+            <div class="editor-container">
+                <div class="editor-top">
+                    <form name="formid">
+                        <select class="font-family" id="textFamily">
+                            <option value="">--Choose Font --</option>
+                            <option value="tahoma">Tahoma</option>
+                            <option value="verdana">Verdana</option>
+                            <option value="Cairo">Cairo</option>
+                            <option value="Open Sans">Open Sans</option>
+                        </select>
+                    </form>
+                    <div class="bold-text"><i class="fas fa-bold"></i></div>
+                    <div class="italic-text"><i class="fas fa-italic"></i></div>
+                    <div class="size-container">
+                        <span class="btn minus"><i class="fas fa-minus"></i></span>
+                        <span class="text-size">16</span>
+                        <span class="btn plus"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <input type="color" class="colorPicker">
+                    <div class="invert-color">Invert Colors</div>
+                </div>
+                <div class="editor-text">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur fugit sapiente nostrum
+                        laborum incidunt. Iusto nemo ipsam rem. Ipsum pariatur, nihil suscipit aperiam aut nisi tenetur,
+                        corporis quasi expedita omnis ullam laudantium voluptatibus inventore? Expedita iusto qui cumque
+                        sed sapiente!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://kit.fontawesome.com/9e5ba2e3f5.js" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
